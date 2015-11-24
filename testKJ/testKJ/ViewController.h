@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 //sdsdfsdfsd
 //222222
+
 @property(nonatomic)int num;
 @end
 
