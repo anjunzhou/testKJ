@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 //sdsdfsdfsd
 //222222
-//
+//remote
 @property(nonatomic)int num;
 @end
 
