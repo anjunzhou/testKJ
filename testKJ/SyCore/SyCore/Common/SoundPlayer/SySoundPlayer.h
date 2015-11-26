@@ -12,6 +12,7 @@
 
 @interface SySoundPlayer : NSObject{
 
+    
     NSString                                        *_playerPath;
 }
 
