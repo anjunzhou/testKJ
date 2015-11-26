@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		34356C72E10AF4CB65CEAAAA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 482B82308D4E194B213C21DC /* libPods.a */; };
+		C84FA45B1C06ABF8002E4201 /* libSyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C84FA4581C06AB62002E4201 /* libSyCore.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		C86037A81C05A35D0035781C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86037A71C05A35D0035781C /* Foundation.framework */; };
 		C8B38E641C0452C7009FD5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B38E631C0452C7009FD5BB /* main.m */; };
 		C8B38E671C0452C7009FD5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B38E661C0452C7009FD5BB /* AppDelegate.m */; };
 		C8B38E6A1C0452C7009FD5BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B38E691C0452C7009FD5BB /* ViewController.m */; };
@@ -15,9 +17,25 @@
 		C8B38E6F1C0452C7009FD5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B38E6E1C0452C7009FD5BB /* Images.xcassets */; };
 		C8B38E721C0452C7009FD5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8B38E701C0452C7009FD5BB /* LaunchScreen.xib */; };
 		C8B38E7E1C0452C7009FD5BB /* testKJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B38E7D1C0452C7009FD5BB /* testKJTests.m */; };
+		C8D6161A1C06B4E900A6EB79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D616191C06B4E800A6EB79 /* libz.dylib */; };
+		C8D6161E1C06B51800A6EB79 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D6161D1C06B51800A6EB79 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C84FA4571C06AB62002E4201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84FA4521C06AB61002E4201 /* SyCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0485939519076C8100E51AFF;
+			remoteInfo = SyCore;
+		};
+		C84FA4591C06AB62002E4201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84FA4521C06AB61002E4201 /* SyCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 048593A519076C8100E51AFF;
+			remoteInfo = SyCoreTests;
+		};
 		C8B38E781C0452C7009FD5BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8B38E561C0452C6009FD5BB /* Project object */;
@@ -30,6 +48,8 @@
 /* Begin PBXFileReference section */
 		482B82308D4E194B213C21DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB0F2F150D0244658D75514 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C84FA4521C06AB61002E4201 /* SyCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SyCore.xcodeproj; path = SyCore/SyCore.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C86037A71C05A35D0035781C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8B38E5E1C0452C6009FD5BB /* testKJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testKJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B38E621C0452C7009FD5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8B38E631C0452C7009FD5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +63,8 @@
 		C8B38E771C0452C7009FD5BB /* testKJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testKJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B38E7C1C0452C7009FD5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8B38E7D1C0452C7009FD5BB /* testKJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testKJTests.m; sourceTree = "<group>"; };
+		C8D616191C06B4E800A6EB79 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C8D6161D1C06B51800A6EB79 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		F692C196269F0ACC779D8665 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D6161E1C06B51800A6EB79 /* libsqlite3.0.dylib in Frameworks */,
+				C8D6161A1C06B4E900A6EB79 /* libz.dylib in Frameworks */,
+				C84FA45B1C06ABF8002E4201 /* libSyCore.a in Frameworks */,
+				C86037A81C05A35D0035781C /* Foundation.framework in Frameworks */,
 				34356C72E10AF4CB65CEAAAA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,9 +94,29 @@
 		9D0A3E6E3BE2334021C3373E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8D6161D1C06B51800A6EB79 /* libsqlite3.0.dylib */,
+				C8D616191C06B4E800A6EB79 /* libz.dylib */,
+				C86037A71C05A35D0035781C /* Foundation.framework */,
 				482B82308D4E194B213C21DC /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C84FA4141C06A8BB002E4201 /* Depandences */ = {
+			isa = PBXGroup;
+			children = (
+				C84FA4521C06AB61002E4201 /* SyCore.xcodeproj */,
+			);
+			name = Depandences;
+			sourceTree = "<group>";
+		};
+		C84FA4531C06AB61002E4201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84FA4581C06AB62002E4201 /* libSyCore.a */,
+				C84FA45A1C06AB62002E4201 /* SyCoreTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C8B38E551C0452C6009FD5BB = {
@@ -96,6 +142,7 @@
 		C8B38E601C0452C6009FD5BB /* testKJ */ = {
 			isa = PBXGroup;
 			children = (
+				C84FA4141C06A8BB002E4201 /* Depandences */,
 				C8B38E651C0452C7009FD5BB /* AppDelegate.h */,
 				C8B38E661C0452C7009FD5BB /* AppDelegate.m */,
 				C8B38E681C0452C7009FD5BB /* ViewController.h */,
@@ -212,6 +259,12 @@
 			mainGroup = C8B38E551C0452C6009FD5BB;
 			productRefGroup = C8B38E5F1C0452C6009FD5BB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C84FA4531C06AB61002E4201 /* Products */;
+					ProjectRef = C84FA4521C06AB61002E4201 /* SyCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C8B38E5D1C0452C6009FD5BB /* testKJ */,
@@ -219,6 +272,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C84FA4581C06AB62002E4201 /* libSyCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSyCore.a;
+			remoteRef = C84FA4571C06AB62002E4201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C84FA45A1C06AB62002E4201 /* SyCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SyCoreTests.xctest;
+			remoteRef = C84FA4591C06AB62002E4201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C8B38E5C1C0452C6009FD5BB /* Resources */ = {
@@ -407,8 +477,18 @@
 			baseConfigurationReference = F692C196269F0ACC779D8665 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "${PODS_ROOT}/Headers/Jastor-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"$(SRCROOT)/SyCore/SyCore/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = testKJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/SyCore/SyCore/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -418,8 +498,18 @@
 			baseConfigurationReference = BDB0F2F150D0244658D75514 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "${PODS_ROOT}/Headers/Jastor-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"$(SRCROOT)/SyCore/SyCore/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = testKJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/SyCore/SyCore/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

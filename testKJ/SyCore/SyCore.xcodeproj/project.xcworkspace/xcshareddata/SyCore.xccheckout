@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B592500B-54DD-4636-9479-51349D465093</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SyCore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E04A49B2-698B-45B6-A40D-FA7F2B542561</key>
+		<string>https://115.29.146.67:8443/svn/xb_note/iOS/trunk/Dependencies</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SyCore/SyCore.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E04A49B2-698B-45B6-A40D-FA7F2B542561</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E04A49B2-698B-45B6-A40D-FA7F2B542561</key>
+		<string>https://115.29.146.67:8443/svn/xb_note</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://115.29.146.67:8443/svn/xb_note/iOS/trunk/Dependencies/SyCore/SyCore.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E04A49B2-698B-45B6-A40D-FA7F2B542561</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E04A49B2-698B-45B6-A40D-FA7F2B542561</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dependencies</string>
+		</dict>
+	</array>
+</dict>
+</plist>

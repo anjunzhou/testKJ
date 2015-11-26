@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SySoundPlayer.h"
+#import "SySoundRecorder.h"
 @interface ViewController : UIViewController
 //sdsdfsdfsd
 //222222
 //remote
+
 @property(nonatomic)int num;
 @end
 
