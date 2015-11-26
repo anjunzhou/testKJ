@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SySoundPlayer.h"
+
 #import "SySoundRecorder.h"
+
 @interface ViewController : UIViewController
 //sdsdfsdfsd
 //222222
